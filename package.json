@@ -1,0 +1,23 @@
+{
+  "name": "teste-tecnico-trocafone",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kluivert-queiroz/teste-tecnico-trocafone.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kluivert-queiroz/teste-tecnico-trocafone/issues"
+  },
+  "homepage": "https://github.com/kluivert-queiroz/teste-tecnico-trocafone#readme",
+  "dependencies": {
+    "jest": "^26.6.3"
+  }
+}
