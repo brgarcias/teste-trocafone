@@ -5,18 +5,13 @@
  * deve retornar "Hello Jack. Hello Ana."
  */
 function deduplicateSentence($inputString){
-	const regex = /(\b\S+)(?:\s+\1\b)+/gisu;
+	const regex = /(\b\S+)(?:\s+\1\b)+/gi;
+	
+	const subst = `$1`;
 
-	let m;
+	const result = $inputString.replace(regex, subst);
 
-	while((m = regex.exec($inputString) !== null)) {
-		
-		if (m.index === regex.lastIndex) {
-			regex.lastIndex++;
-		}
-	}
-
-
+	return result;
 };
 
 module.exports = deduplicateSentence;
